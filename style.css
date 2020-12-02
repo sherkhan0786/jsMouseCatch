@@ -1,0 +1,100 @@
+body{
+    background-image: url(bg.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+#d1, #d2, #d3, #d4, #d5, #d6 ,#d7, #d8, #d9  {
+    height: 150px;
+    width: 150px;
+    border: 20px solid #231e16;
+    display: inline-flex;
+    margin: 30px;
+    border-radius: 24px 310px 51px 334px;
+    background: #000;
+}
+
+
+.game{
+    /* margin-top: 80px; */
+}
+
+img{
+    height: inherit;
+    width: inherit;
+    position: relative;
+    animation-name: rat;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    /* display: none; */
+}
+
+@keyframes rat {
+    0%   {top:-20px;}
+    /* 25%  {top:-50px;} */
+    50%  {top:-100px;}
+    /* 75%  {top:-70px;} */
+    100% {top:-40px;}
+  }
+
+.container{
+    background: rgba(0,0,0,.9);
+    padding: 60px;
+    height: 350px;
+    text-align: center;
+    margin-top: 79px;
+    position: relative;
+
+    width: max-content;
+}
+
+
+#startbtn{
+    position: absolute;
+    font-size: 16px;
+    padding: 10px 25px;
+    cursor: pointer;
+    background:#4caf50;
+    border-radius: 7px;
+    color: white;
+    border: none;
+    bottom: 69px;
+    left: 236px;
+    /* margin-left: 73px; */
+}
+
+#menu{
+    position: absolute;
+    font-size: 16px;
+    padding: 10px 25px;
+    cursor: pointer;
+    background:#4caf50;
+    border-radius: 7px;
+    color: white;
+    border: none;
+    bottom: 69px;
+    /* left: 236px; */
+    /* margin-left: 73px; */
+}
+
+#result{
+    display: none;
+    position: relative;
+}
+
+.popUp{
+    font-size: 30px;
+    color: white;
+    background: rgba(0,0,0,.9);
+    height: 200px;
+    margin-top: 79px;
+}
+
+#resultHScore{
+    position: relative;
+    bottom: 160px;
+    color: red;
+    font-size: 30px;
+}
