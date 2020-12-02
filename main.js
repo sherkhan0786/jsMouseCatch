@@ -1,6 +1,6 @@
 var last = 0;
 var score = 0;
-setInterval(myInterval, 900);
+setInterval(myInterval, 600);
 
 // Injecting random image by random Id
 function myInterval() {
